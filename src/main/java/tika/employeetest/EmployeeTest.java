@@ -10,6 +10,8 @@ double yearlySalary;
 yearlySalary = employee1.getSalary()*12;
 System.out.println("EMPLOYEE1 SALARY:" + yearlySalary);
 
+yearlySalary = employee2.getSalary()*12;
+System.out.println("EMPLOYEE2 SALARY:" + yearlySalary);
 
 
 employee1.setSalary(employee1.getSalary()*1.1);
